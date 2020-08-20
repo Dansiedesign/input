@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input test</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="index.js" type="text/javascript"></script>
+</head>
+<body>
+  <div class="hero">
+    <header>
+      <h1>This is not Twitter</h1>
+      <h2>Please enter in some info to not create and account. </h2>
+    </header>
+    <main class="container">
+      <div name="inputForm" >
+        <form id="form" action="/" method="GET" class="inputForm">
+         <div class="first">
+            <label for="firstName" >First name</label>
+            <div>
+             <input id="firstName" placeholder="First name" name="firstName" type="text" >
+            </div>
+          </div>
+         <div class="last">
+            <label for="lastName"  >Last name</label>
+             <div>
+               <input id="lastName" name="name" type="text" placeholder="Last name" >
+             </div>
+            </div>
+         <div class="email">
+            <label for="email"  >Email@address.com</label>
+             <div>
+               <input id="email" name="email" type="text" placeholder="email" >
+             </div>
+            </div>
+         <div class="age">
+            <label for="age" >Age</label>
+             <div>
+               <input id="age" name="age" type="number"placeholder="Age" >
+            </div>
+            </div>
+          <div class="password">
+         <div class="phone">
+            <label for="phone" >Phone number</label>
+             <div>
+               <input id="phone" name="phone" type="number"placeholder="Phone number" >
+            </div>
+            </div>
+          <div class="password">
+            <label for="password">Password</label>
+            <div>
+              <input id="password" name="password" type="password" placeholder="password">
+            </div>
+          </div>
+          <div class="password">
+            <div>
+            <label for="password">Comfirm password</label>
+            <div>
+              <input id="comfirmPassword" placeholder="Comfirm password" name="password" type="password">
+            </div>
+            </div>
+          <a href="index.html" class="button" >Back</a>
+          <a href="index.html"class="button" onclick="output()">Submit</a>
+        </form>
+        </div>
+    </main>
+  </div>  
+</body>
+</html>
+

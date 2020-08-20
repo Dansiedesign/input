@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In</title>
+  <link rel="stylesheet" href="main.css">
+  
+</head>
+<body>
+  <div class="hero">
+    <header>
+      <h1>This is not Twitter</h1>
+      <h2>Please enter in some info to not sign in. </h2>
+    </header>
+    <main class="container">
+      <div name="inputForm" >
+        <form id="form" action="/" method="GET" class="inputForm">
+         <div class="first">
+            <label for="firstName" >First name</label>
+            <div>
+             <input id="firstName" placeholder="First name" name="firstName" type="text" >
+            </div>
+          </div>
+          <div class="password">
+            <label for="password">Password</label>
+            <div>
+              <input id="password" name="password" type="password" placeholder="password">
+            </div>
+          </div>
+          <div >
+            <a class="button" onclick="output()">Log in</button>
+            <a href="Create.html"class="button">Create account</a>
+            <br>
+            <div class="forgot">
+            <a href="forgot.html">Forgot your info?</a>
+          </div> 
+          </div>
+      </form>
+    </div>
+   </main>
+</body>
+</html>
